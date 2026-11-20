@@ -39,3 +39,11 @@ export {
 } from "./portions";
 
 export { referencePortionSchema } from "./schemas";
+
+export {
+  findReducibleFractions,
+  formatHouseholdMeasure,
+  type HouseholdUtensilId,
+  householdUtensils,
+  isHouseholdUtensil,
+} from "./household-measures";
