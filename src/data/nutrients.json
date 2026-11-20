@@ -1,5 +1,5 @@
 {
-  "source": "IN 75/2020 Annex XI",
+  "source": "RDC 429/2020 Art. 5; IN 75/2020 Annex XI",
   "mandatory": [
     {
       "id": "energy",
@@ -22,6 +22,7 @@
     {
       "id": "addedSugars",
       "labelPt": "Açúcares adicionados",
+      "abbreviationPt": "Aç adicionados",
       "unit": "g",
       "indent": 2
     },
@@ -40,12 +41,14 @@
     {
       "id": "saturatedFat",
       "labelPt": "Gorduras saturadas",
+      "abbreviationPt": "Gord saturadas",
       "unit": "g",
       "indent": 1
     },
     {
       "id": "transFat",
       "labelPt": "Gorduras trans",
+      "abbreviationPt": "Gord trans",
       "unit": "g",
       "indent": 1
     },

@@ -19,6 +19,7 @@ export const nutrientsSchema = z.object({
     z.object({
       id: z.string().min(1),
       labelPt: z.string().min(1),
+      abbreviationPt: z.string().min(1).optional(),
       unit: unitSchema,
       indent: z.number().int().min(0).max(2),
     }),
