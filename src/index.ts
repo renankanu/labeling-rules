@@ -67,3 +67,5 @@ export {
   isPopulationGroup,
   populationDailyValues,
 } from "./population-daily-values";
+
+export { type MultipackDeclaration, multipackDeclaration } from "./multipack";
