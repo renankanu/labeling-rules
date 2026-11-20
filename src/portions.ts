@@ -98,3 +98,27 @@ export function validatePortion(input: {
  * to the food ready for consumption.
  */
 export const PREPARED_FOOD_FOOTNOTE = "**No alimento pronto para o consumo.";
+
+/**
+ * RDC 429/2020 Art. 10 with IN 75/2020 Annex V: a package whose content is
+ * up to twice the reference portion may be declared as an individual package
+ * (portion = whole content). Only fixed Annex V portions are checked; other
+ * kinds return false.
+ */
+export function isIndividualPackagingEligible(input: {
+  productId: string;
+  contentAmount: number;
+  unit: PortionUnit;
+}): boolean {
+  const product = productsById.get(input.productId);
+  if (!product) {
+    throw new Error(`Unknown Annex V product: ${input.productId}`);
+  }
+  if (product.portion.kind !== "fixed" || input.contentAmount <= 0) {
+    return false;
+  }
+  const option =
+    product.portion.options.find((item) => item.unit === input.unit) ??
+    product.portion.options.find((item) => item.unit === undefined);
+  return option !== undefined && input.contentAmount <= 2 * option.amount;
+}

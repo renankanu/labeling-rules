@@ -1,6 +1,7 @@
 import { describe, expect, test } from "bun:test";
 import {
   findPortionReferenceProduct,
+  isIndividualPackagingEligible,
   portions,
   validatePortion,
 } from "../src/index";
@@ -153,5 +154,23 @@ describe("validatePortion for foods that need preparation", () => {
     expect(
       validatePortion({ productId: "I-43", portionSize: 60, unit: "g" }),
     ).toEqual({ valid: true });
+  });
+});
+
+describe("isIndividualPackagingEligible (RDC 429/2020 Art. 10)", () => {
+  test("accepts content up to twice the reference portion", () => {
+    // I-09 bolo sem recheio: porção de 60 g
+    expect(isIndividualPackagingEligible({ productId: "I-09", contentAmount: 120, unit: "g" })).toBe(true);
+    expect(isIndividualPackagingEligible({ productId: "I-09", contentAmount: 121, unit: "g" })).toBe(false);
+  });
+
+  test("uses the option of the unit when the annex gives g and ml", () => {
+    // VII-15 sorvete individual: 60 g ou 130 ml
+    expect(isIndividualPackagingEligible({ productId: "VII-15", contentAmount: 260, unit: "ml" })).toBe(true);
+    expect(isIndividualPackagingEligible({ productId: "VII-15", contentAmount: 260, unit: "g" })).toBe(false);
+  });
+
+  test("returns false for portions that are not fixed", () => {
+    expect(isIndividualPackagingEligible({ productId: "V-15", contentAmount: 50, unit: "g" })).toBe(false);
   });
 });

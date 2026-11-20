@@ -22,6 +22,7 @@ export {
 
 export {
   findPortionReferenceProduct,
+  isIndividualPackagingEligible,
   PREPARED_FOOD_FOOTNOTE,
   portions,
   type PortionReferenceProduct,
