@@ -47,3 +47,10 @@ export {
   householdUtensils,
   isHouseholdUtensil,
 } from "./household-measures";
+
+export {
+  indentationInN,
+  linearTypography,
+  type TableFormatting,
+  tableTypography,
+} from "./typography";
