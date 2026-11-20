@@ -132,3 +132,26 @@ describe("validatePortion", () => {
     ).toThrow();
   });
 });
+
+describe("validatePortion for foods that need preparation", () => {
+  // I-43 "Pós para preparar bolos e tortas": enough to prepare 60 g
+  const preparation = { productQuantity: 400, preparedWeight: 800 };
+
+  test("accepts the product amount needed for one prepared portion", () => {
+    expect(
+      validatePortion({ productId: "I-43", portionSize: 30, unit: "g", preparation }),
+    ).toEqual({ valid: true });
+  });
+
+  test("rejects another amount and says which one is expected", () => {
+    expect(
+      validatePortion({ productId: "I-43", portionSize: 60, unit: "g", preparation }),
+    ).toEqual({ valid: false, expectedPt: "30 g (para preparar 60 g)" });
+  });
+
+  test("accepts any amount without preparation data", () => {
+    expect(
+      validatePortion({ productId: "I-43", portionSize: 60, unit: "g" }),
+    ).toEqual({ valid: true });
+  });
+});

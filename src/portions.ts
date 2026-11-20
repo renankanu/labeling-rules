@@ -31,21 +31,47 @@ export type PortionValidation =
  * - Individual packaging: the portion is the whole content (RDC 429/2020
  *   Art. 9º I), so any amount is valid.
  * - Fixed portions must match one of the annex options exactly.
- * - "Enough to prepare", manufacturer-defined ("x gramas") and alcoholic
- *   beverage portions cannot be checked from the amount alone and are valid.
+ * - "Enough to prepare X": with the preparation (product amount that makes
+ *   a prepared weight), the portion is the product needed for X of prepared
+ *   food (RDC 429/2020 Art. 8º § 4º II), rounded to a whole number.
+ * - Manufacturer-defined ("x gramas") and alcoholic beverage portions, and
+ *   "enough to prepare" without preparation data, cannot be checked from the
+ *   amount alone and are valid.
  */
 export function validatePortion(input: {
   productId: string;
   portionSize: number;
   unit: PortionUnit;
   individualPackaging?: boolean;
+  preparation?: { productQuantity: number; preparedWeight: number };
 }): PortionValidation {
   const product = productsById.get(input.productId);
   if (!product) {
     throw new Error(`Unknown Annex V product: ${input.productId}`);
   }
 
-  if (input.individualPackaging || product.portion.kind !== "fixed") {
+  if (input.individualPackaging) {
+    return { valid: true };
+  }
+
+  if (product.portion.kind === "toPrepare") {
+    const { preparedAmount } = product.portion;
+    if (!input.preparation || preparedAmount === undefined) {
+      return { valid: true };
+    }
+    const expected = Math.round(
+      (input.preparation.productQuantity * preparedAmount) /
+        input.preparation.preparedWeight,
+    );
+    return Math.round(input.portionSize) === expected
+      ? { valid: true }
+      : {
+          valid: false,
+          expectedPt: `${expected} ${input.unit} (para preparar ${preparedAmount} ${product.portion.unit ?? input.unit})`,
+        };
+  }
+
+  if (product.portion.kind !== "fixed") {
     return { valid: true };
   }
 
@@ -66,3 +92,9 @@ export function validatePortion(input: {
       .join(" ou "),
   };
 }
+
+/**
+ * RDC 429/2020 Art. 8º § 5º: footnote of the 100 g/ml column when it refers
+ * to the food ready for consumption.
+ */
+export const PREPARED_FOOD_FOOTNOTE = "**No alimento pronto para o consumo.";
