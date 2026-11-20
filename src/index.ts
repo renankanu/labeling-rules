@@ -1,13 +1,4 @@
-import dailyValuesData from "./data/daily-values.json";
-import nutrientsData from "./data/nutrients.json";
-
-import {
-  dailyValuesSchema,
-  nutrientsSchema,
-} from "./schemas";
-
-export const dailyValues = dailyValuesSchema.parse(dailyValuesData);
-export const nutrients = nutrientsSchema.parse(nutrientsData);
+export { dailyValues, nutrients } from "./nutrients";
 export {
   nonSignificantLimits,
   nonSignificantNutrients,
@@ -54,3 +45,12 @@ export {
   type TableFormatting,
   tableTypography,
 } from "./typography";
+
+export {
+  BLACK_CIRCLE_SEPARATOR,
+  findVitaminOrMineral,
+  nonSignificantStatement,
+  type SimplifiedDeclarationItem,
+  simplifiedVitaminsAndMinerals,
+  type VitaminOrMineral,
+} from "./simplified-declaration";
