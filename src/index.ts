@@ -8,3 +8,8 @@ import {
 
 export const dailyValues = dailyValuesSchema.parse(dailyValuesData);
 export const nutrients = nutrientsSchema.parse(nutrientsData);
+export {
+  nonSignificantLimits,
+  nonSignificantNutrients,
+  type NutrientAmounts,
+} from "./non-significant";
