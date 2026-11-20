@@ -24,4 +24,13 @@ export const nutrientsSchema = z.object({
       indent: z.number().int().min(0).max(2),
     }),
   ),
+  vitaminsAndMinerals: z.array(
+    z.object({
+      id: z.string().min(1),
+      labelPt: z.string().min(1),
+      alternativeNamesPt: z.array(z.string().min(1)).optional(),
+      abbreviationPt: z.string().min(1).optional(),
+      unit: unitSchema,
+    }),
+  ),
 });

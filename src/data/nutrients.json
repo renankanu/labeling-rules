@@ -64,5 +64,184 @@
       "unit": "mg",
       "indent": 0
     }
+  ],
+  "vitaminsAndMinerals": [
+    {
+      "id": "vitaminA",
+      "labelPt": "Vitamina A",
+      "abbreviationPt": "Vit A",
+      "unit": "mcg"
+    },
+    {
+      "id": "vitaminD",
+      "labelPt": "Vitamina D",
+      "abbreviationPt": "Vit D",
+      "unit": "mcg"
+    },
+    {
+      "id": "vitaminE",
+      "labelPt": "Vitamina E",
+      "abbreviationPt": "Vit E",
+      "unit": "mg"
+    },
+    {
+      "id": "vitaminK",
+      "labelPt": "Vitamina K",
+      "abbreviationPt": "Vit K",
+      "unit": "mcg"
+    },
+    {
+      "id": "vitaminC",
+      "labelPt": "Vitamina C",
+      "abbreviationPt": "Vit C",
+      "unit": "mg"
+    },
+    {
+      "id": "vitaminB1",
+      "labelPt": "Vitamina B1",
+      "alternativeNamesPt": [
+        "Tiamina"
+      ],
+      "abbreviationPt": "Vit B1",
+      "unit": "mg"
+    },
+    {
+      "id": "vitaminB2",
+      "labelPt": "Vitamina B2",
+      "alternativeNamesPt": [
+        "Riboflavina"
+      ],
+      "abbreviationPt": "Vit B2",
+      "unit": "mg"
+    },
+    {
+      "id": "vitaminB3",
+      "labelPt": "Vitamina B3",
+      "alternativeNamesPt": [
+        "Niacina"
+      ],
+      "abbreviationPt": "Vit B3",
+      "unit": "mg"
+    },
+    {
+      "id": "vitaminB5",
+      "labelPt": "Vitamina B5",
+      "alternativeNamesPt": [
+        "Ácido pantotênico"
+      ],
+      "abbreviationPt": "Vit B5",
+      "unit": "mg"
+    },
+    {
+      "id": "vitaminB6",
+      "labelPt": "Vitamina B6",
+      "alternativeNamesPt": [
+        "Piridoxina"
+      ],
+      "abbreviationPt": "Vit B6",
+      "unit": "mg"
+    },
+    {
+      "id": "vitaminB7",
+      "labelPt": "Vitamina B7",
+      "alternativeNamesPt": [
+        "Biotina"
+      ],
+      "abbreviationPt": "Vit B7",
+      "unit": "mcg"
+    },
+    {
+      "id": "vitaminB9",
+      "labelPt": "Vitamina B9",
+      "alternativeNamesPt": [
+        "Ácido fólico"
+      ],
+      "abbreviationPt": "Vit B9",
+      "unit": "mcg"
+    },
+    {
+      "id": "vitaminB12",
+      "labelPt": "Vitamina B12",
+      "alternativeNamesPt": [
+        "Cianocobalamina"
+      ],
+      "abbreviationPt": "Vit B12",
+      "unit": "mcg"
+    },
+    {
+      "id": "calcium",
+      "labelPt": "Cálcio",
+      "unit": "mg"
+    },
+    {
+      "id": "chloride",
+      "labelPt": "Cloreto",
+      "unit": "mg"
+    },
+    {
+      "id": "copper",
+      "labelPt": "Cobre",
+      "unit": "mcg"
+    },
+    {
+      "id": "chromium",
+      "labelPt": "Cromo",
+      "unit": "mcg"
+    },
+    {
+      "id": "iron",
+      "labelPt": "Ferro",
+      "unit": "mg"
+    },
+    {
+      "id": "fluoride",
+      "labelPt": "Flúor",
+      "unit": "mg"
+    },
+    {
+      "id": "phosphorus",
+      "labelPt": "Fósforo",
+      "unit": "mg"
+    },
+    {
+      "id": "iodine",
+      "labelPt": "Iodo",
+      "unit": "mcg"
+    },
+    {
+      "id": "magnesium",
+      "labelPt": "Magnésio",
+      "unit": "mg"
+    },
+    {
+      "id": "manganese",
+      "labelPt": "Manganês",
+      "unit": "mg"
+    },
+    {
+      "id": "molybdenum",
+      "labelPt": "Molibdênio",
+      "unit": "mcg"
+    },
+    {
+      "id": "potassium",
+      "labelPt": "Potássio",
+      "unit": "mg"
+    },
+    {
+      "id": "selenium",
+      "labelPt": "Selênio",
+      "unit": "mcg"
+    },
+    {
+      "id": "zinc",
+      "labelPt": "Zinco",
+      "unit": "mg"
+    },
+    {
+      "id": "choline",
+      "labelPt": "Colina",
+      "unit": "mg"
+    }
   ]
 }

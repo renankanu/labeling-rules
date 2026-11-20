@@ -13,3 +13,8 @@ export {
   nonSignificantNutrients,
   type NutrientAmounts,
 } from "./non-significant";
+
+export {
+  calculateEnergyKcal,
+  energyConversionFactors,
+} from "./energy";
