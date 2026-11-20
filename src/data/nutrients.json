@@ -1,0 +1,65 @@
+{
+  "source": "IN 75/2020 Annex XI",
+  "mandatory": [
+    {
+      "id": "energy",
+      "labelPt": "Valor energético",
+      "unit": "kcal",
+      "indent": 0
+    },
+    {
+      "id": "carbohydrates",
+      "labelPt": "Carboidratos",
+      "unit": "g",
+      "indent": 0
+    },
+    {
+      "id": "totalSugars",
+      "labelPt": "Açúcares totais",
+      "unit": "g",
+      "indent": 1
+    },
+    {
+      "id": "addedSugars",
+      "labelPt": "Açúcares adicionados",
+      "unit": "g",
+      "indent": 2
+    },
+    {
+      "id": "proteins",
+      "labelPt": "Proteínas",
+      "unit": "g",
+      "indent": 0
+    },
+    {
+      "id": "totalFat",
+      "labelPt": "Gorduras totais",
+      "unit": "g",
+      "indent": 0
+    },
+    {
+      "id": "saturatedFat",
+      "labelPt": "Gorduras saturadas",
+      "unit": "g",
+      "indent": 1
+    },
+    {
+      "id": "transFat",
+      "labelPt": "Gorduras trans",
+      "unit": "g",
+      "indent": 1
+    },
+    {
+      "id": "dietaryFiber",
+      "labelPt": "Fibras alimentares",
+      "unit": "g",
+      "indent": 0
+    },
+    {
+      "id": "sodium",
+      "labelPt": "Sódio",
+      "unit": "mg",
+      "indent": 0
+    }
+  ]
+}
