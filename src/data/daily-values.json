@@ -1,0 +1,41 @@
+{
+  "source": "IN 75/2020 Annex II",
+  "values": {
+    "energy": {
+      "amount": 2000,
+      "unit": "kcal"
+    },
+    "carbohydrates": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "addedSugars": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "proteins": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "totalFat": {
+      "amount": 65,
+      "unit": "g"
+    },
+    "saturatedFat": {
+      "amount": 20,
+      "unit": "g"
+    },
+    "transFat": {
+      "amount": 2,
+      "unit": "g"
+    },
+    "dietaryFiber": {
+      "amount": 25,
+      "unit": "g"
+    },
+    "sodium": {
+      "amount": 2000,
+      "unit": "mg"
+    }
+  }
+}
