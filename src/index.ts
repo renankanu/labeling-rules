@@ -69,3 +69,14 @@ export {
 } from "./population-daily-values";
 
 export { type MultipackDeclaration, multipackDeclaration } from "./multipack";
+
+export {
+  type ClaimAmounts,
+  type ClaimAttribute,
+  type ClaimContext,
+  type ClaimEvaluation,
+  claimTerms,
+  evaluateNutritionClaims,
+  isNutritionClaim,
+  nutritionClaimIds,
+} from "./claims";
