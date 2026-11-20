@@ -31,6 +31,11 @@ export {
   validatePortion,
 } from "./portions";
 
+export {
+  suggestedFrontLabelCategory,
+  type SuggestedFrontLabelCategory,
+} from "./portion-front-label-category";
+
 export { referencePortionSchema } from "./schemas";
 
 export {
