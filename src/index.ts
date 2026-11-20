@@ -18,3 +18,13 @@ export {
   calculateEnergyKcal,
   energyConversionFactors,
 } from "./energy";
+
+export {
+  type FoodForm,
+  type FrontLabelNutrient,
+  type FrontLabelProhibitedCategoryId,
+  frontLabelLimits,
+  frontLabelProhibitedCategories,
+  frontLabelWarnings,
+  isFrontLabelProhibitedCategory,
+} from "./front-label";
