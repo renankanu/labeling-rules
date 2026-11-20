@@ -80,3 +80,15 @@ export const portionsSchema = z.object({
     }),
   ),
 });
+
+export const populationDailyValuesSchema = z.object({
+  source: z.string().min(1),
+  groups: z.array(z.object({ id: z.string().min(1), labelPt: z.string().min(1) })),
+  values: z.record(
+    z.string(),
+    z.object({
+      unit: unitSchema,
+      byGroup: z.record(z.string(), z.number().positive()),
+    }),
+  ),
+});

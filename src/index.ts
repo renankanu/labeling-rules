@@ -61,3 +61,9 @@ export {
   frontLabelSize,
   frontLabelSizing,
 } from "./front-label-size";
+
+export {
+  dailyValueFor,
+  isPopulationGroup,
+  populationDailyValues,
+} from "./population-daily-values";

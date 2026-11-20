@@ -1,0 +1,567 @@
+{
+  "source": "IN 75/2020 Annex VIII",
+  "groups": [
+    {
+      "id": "infant0to6Months",
+      "labelPt": "0 a 6 meses"
+    },
+    {
+      "id": "infant7to11Months",
+      "labelPt": "7 a 11 meses"
+    },
+    {
+      "id": "child1to3Years",
+      "labelPt": "1 a 3 anos"
+    },
+    {
+      "id": "child4to8Years",
+      "labelPt": "4 a 8 anos"
+    },
+    {
+      "id": "age9to18Years",
+      "labelPt": "9 a 18 anos"
+    },
+    {
+      "id": "adult19Plus",
+      "labelPt": "≥ 19 anos"
+    },
+    {
+      "id": "pregnant",
+      "labelPt": "Gestantes"
+    },
+    {
+      "id": "lactating",
+      "labelPt": "Lactantes"
+    }
+  ],
+  "values": {
+    "energy": {
+      "unit": "kcal",
+      "byGroup": {
+        "infant0to6Months": 550,
+        "infant7to11Months": 700,
+        "child1to3Years": 1000,
+        "child4to8Years": 1500,
+        "age9to18Years": 2500,
+        "adult19Plus": 2000,
+        "pregnant": 2300,
+        "lactating": 2600
+      }
+    },
+    "carbohydrates": {
+      "unit": "g",
+      "byGroup": {
+        "infant0to6Months": 60,
+        "infant7to11Months": 95,
+        "child1to3Years": 150,
+        "child4to8Years": 225,
+        "age9to18Years": 375,
+        "adult19Plus": 300,
+        "pregnant": 345,
+        "lactating": 360
+      }
+    },
+    "addedSugars": {
+      "unit": "g",
+      "byGroup": {
+        "child1to3Years": 25,
+        "child4to8Years": 35,
+        "age9to18Years": 60,
+        "adult19Plus": 50,
+        "pregnant": 55,
+        "lactating": 65
+      }
+    },
+    "proteins": {
+      "unit": "g",
+      "byGroup": {
+        "infant0to6Months": 9,
+        "infant7to11Months": 11,
+        "child1to3Years": 25,
+        "child4to8Years": 35,
+        "age9to18Years": 60,
+        "adult19Plus": 50,
+        "pregnant": 55,
+        "lactating": 65
+      }
+    },
+    "totalFat": {
+      "unit": "g",
+      "byGroup": {
+        "infant0to6Months": 30,
+        "infant7to11Months": 27,
+        "child1to3Years": 33,
+        "child4to8Years": 50,
+        "age9to18Years": 80,
+        "adult19Plus": 65,
+        "pregnant": 75,
+        "lactating": 85
+      }
+    },
+    "saturatedFat": {
+      "unit": "g",
+      "byGroup": {
+        "child1to3Years": 11,
+        "child4to8Years": 16,
+        "age9to18Years": 27,
+        "adult19Plus": 20,
+        "pregnant": 25,
+        "lactating": 28
+      }
+    },
+    "transFat": {
+      "unit": "g",
+      "byGroup": {
+        "child1to3Years": 1,
+        "child4to8Years": 1.5,
+        "age9to18Years": 2.5,
+        "adult19Plus": 2,
+        "pregnant": 2.5,
+        "lactating": 2.5
+      }
+    },
+    "monounsaturatedFat": {
+      "unit": "g",
+      "byGroup": {
+        "child1to3Years": 11,
+        "child4to8Years": 16,
+        "age9to18Years": 27,
+        "adult19Plus": 20,
+        "pregnant": 25,
+        "lactating": 28
+      }
+    },
+    "polyunsaturatedFat": {
+      "unit": "g",
+      "byGroup": {
+        "child1to3Years": 11,
+        "child4to8Years": 16,
+        "age9to18Years": 27,
+        "adult19Plus": 20,
+        "pregnant": 25,
+        "lactating": 28
+      }
+    },
+    "omega6": {
+      "unit": "g",
+      "byGroup": {
+        "child1to3Years": 9,
+        "child4to8Years": 13,
+        "age9to18Years": 22,
+        "adult19Plus": 18,
+        "pregnant": 20,
+        "lactating": 23
+      }
+    },
+    "omega3": {
+      "unit": "mg",
+      "byGroup": {
+        "child1to3Years": 2000,
+        "child4to8Years": 3000,
+        "age9to18Years": 5000,
+        "adult19Plus": 4000,
+        "pregnant": 5000,
+        "lactating": 5000
+      }
+    },
+    "cholesterol": {
+      "unit": "mg",
+      "byGroup": {
+        "child1to3Years": 300,
+        "child4to8Years": 300,
+        "age9to18Years": 300,
+        "adult19Plus": 300,
+        "pregnant": 300,
+        "lactating": 300
+      }
+    },
+    "dietaryFiber": {
+      "unit": "g",
+      "byGroup": {
+        "child1to3Years": 19,
+        "child4to8Years": 25,
+        "age9to18Years": 38,
+        "adult19Plus": 25,
+        "pregnant": 28,
+        "lactating": 29
+      }
+    },
+    "sodium": {
+      "unit": "mg",
+      "byGroup": {
+        "infant0to6Months": 120,
+        "infant7to11Months": 370,
+        "child1to3Years": 1000,
+        "child4to8Years": 2000,
+        "age9to18Years": 2000,
+        "adult19Plus": 2000,
+        "pregnant": 2000,
+        "lactating": 2000
+      }
+    },
+    "vitaminA": {
+      "unit": "mcg",
+      "byGroup": {
+        "infant0to6Months": 400,
+        "infant7to11Months": 500,
+        "child1to3Years": 300,
+        "child4to8Years": 400,
+        "age9to18Years": 900,
+        "adult19Plus": 800,
+        "pregnant": 770,
+        "lactating": 1300
+      }
+    },
+    "vitaminD": {
+      "unit": "mcg",
+      "byGroup": {
+        "infant0to6Months": 10,
+        "infant7to11Months": 10,
+        "child1to3Years": 15,
+        "child4to8Years": 15,
+        "age9to18Years": 15,
+        "adult19Plus": 15,
+        "pregnant": 15,
+        "lactating": 15
+      }
+    },
+    "vitaminE": {
+      "unit": "mg",
+      "byGroup": {
+        "infant0to6Months": 4,
+        "infant7to11Months": 5,
+        "child1to3Years": 6,
+        "child4to8Years": 7,
+        "age9to18Years": 15,
+        "adult19Plus": 15,
+        "pregnant": 15,
+        "lactating": 15
+      }
+    },
+    "vitaminK": {
+      "unit": "mcg",
+      "byGroup": {
+        "infant0to6Months": 2,
+        "infant7to11Months": 2.5,
+        "child1to3Years": 30,
+        "child4to8Years": 55,
+        "age9to18Years": 75,
+        "adult19Plus": 120,
+        "pregnant": 90,
+        "lactating": 90
+      }
+    },
+    "vitaminC": {
+      "unit": "mg",
+      "byGroup": {
+        "infant0to6Months": 40,
+        "infant7to11Months": 50,
+        "child1to3Years": 15,
+        "child4to8Years": 25,
+        "age9to18Years": 75,
+        "adult19Plus": 100,
+        "pregnant": 85,
+        "lactating": 120
+      }
+    },
+    "vitaminB1": {
+      "unit": "mg",
+      "byGroup": {
+        "infant0to6Months": 0.2,
+        "infant7to11Months": 0.3,
+        "child1to3Years": 0.5,
+        "child4to8Years": 0.6,
+        "age9to18Years": 1.2,
+        "adult19Plus": 1.2,
+        "pregnant": 1.4,
+        "lactating": 1.4
+      }
+    },
+    "vitaminB2": {
+      "unit": "mg",
+      "byGroup": {
+        "infant0to6Months": 0.3,
+        "infant7to11Months": 0.4,
+        "child1to3Years": 0.5,
+        "child4to8Years": 0.6,
+        "age9to18Years": 1.3,
+        "adult19Plus": 1.2,
+        "pregnant": 1.4,
+        "lactating": 1.6
+      }
+    },
+    "vitaminB3": {
+      "unit": "mg",
+      "byGroup": {
+        "infant0to6Months": 2,
+        "infant7to11Months": 4,
+        "child1to3Years": 6,
+        "child4to8Years": 8,
+        "age9to18Years": 16,
+        "adult19Plus": 15,
+        "pregnant": 18,
+        "lactating": 17
+      }
+    },
+    "vitaminB6": {
+      "unit": "mg",
+      "byGroup": {
+        "infant0to6Months": 0.1,
+        "infant7to11Months": 0.3,
+        "child1to3Years": 0.5,
+        "child4to8Years": 0.6,
+        "age9to18Years": 1.3,
+        "adult19Plus": 1.3,
+        "pregnant": 1.9,
+        "lactating": 2
+      }
+    },
+    "vitaminB7": {
+      "unit": "mcg",
+      "byGroup": {
+        "infant0to6Months": 5,
+        "infant7to11Months": 6,
+        "child1to3Years": 8,
+        "child4to8Years": 12,
+        "age9to18Years": 25,
+        "adult19Plus": 30,
+        "pregnant": 30,
+        "lactating": 35
+      }
+    },
+    "vitaminB9": {
+      "unit": "mcg",
+      "byGroup": {
+        "infant0to6Months": 65,
+        "infant7to11Months": 80,
+        "child1to3Years": 150,
+        "child4to8Years": 200,
+        "age9to18Years": 400,
+        "adult19Plus": 400,
+        "pregnant": 600,
+        "lactating": 500
+      }
+    },
+    "vitaminB5": {
+      "unit": "mg",
+      "byGroup": {
+        "infant0to6Months": 1.7,
+        "infant7to11Months": 1.8,
+        "child1to3Years": 2,
+        "child4to8Years": 3,
+        "age9to18Years": 5,
+        "adult19Plus": 5,
+        "pregnant": 6,
+        "lactating": 7
+      }
+    },
+    "vitaminB12": {
+      "unit": "mcg",
+      "byGroup": {
+        "infant0to6Months": 0.4,
+        "infant7to11Months": 0.5,
+        "child1to3Years": 0.9,
+        "child4to8Years": 1.2,
+        "age9to18Years": 2.4,
+        "adult19Plus": 2.4,
+        "pregnant": 2.6,
+        "lactating": 2.8
+      }
+    },
+    "calcium": {
+      "unit": "mg",
+      "byGroup": {
+        "infant0to6Months": 200,
+        "infant7to11Months": 260,
+        "child1to3Years": 700,
+        "child4to8Years": 1000,
+        "age9to18Years": 1300,
+        "adult19Plus": 1000,
+        "pregnant": 1300,
+        "lactating": 1300
+      }
+    },
+    "chloride": {
+      "unit": "mg",
+      "byGroup": {
+        "infant0to6Months": 180,
+        "infant7to11Months": 570,
+        "child1to3Years": 1500,
+        "child4to8Years": 1900,
+        "age9to18Years": 2300,
+        "adult19Plus": 2300,
+        "pregnant": 2300,
+        "lactating": 2300
+      }
+    },
+    "copper": {
+      "unit": "mcg",
+      "byGroup": {
+        "infant0to6Months": 200,
+        "infant7to11Months": 220,
+        "child1to3Years": 340,
+        "child4to8Years": 440,
+        "age9to18Years": 890,
+        "adult19Plus": 900,
+        "pregnant": 1000,
+        "lactating": 1300
+      }
+    },
+    "chromium": {
+      "unit": "mcg",
+      "byGroup": {
+        "infant0to6Months": 0.2,
+        "infant7to11Months": 5.5,
+        "child1to3Years": 11,
+        "child4to8Years": 15,
+        "age9to18Years": 35,
+        "adult19Plus": 35,
+        "pregnant": 30,
+        "lactating": 45
+      }
+    },
+    "iron": {
+      "unit": "mg",
+      "byGroup": {
+        "infant0to6Months": 0.27,
+        "infant7to11Months": 11,
+        "child1to3Years": 7,
+        "child4to8Years": 10,
+        "age9to18Years": 15,
+        "adult19Plus": 14,
+        "pregnant": 27,
+        "lactating": 10
+      }
+    },
+    "fluoride": {
+      "unit": "mg",
+      "byGroup": {
+        "infant0to6Months": 0.01,
+        "infant7to11Months": 0.5,
+        "child1to3Years": 0.7,
+        "child4to8Years": 1,
+        "age9to18Years": 3,
+        "adult19Plus": 4,
+        "pregnant": 3,
+        "lactating": 3
+      }
+    },
+    "phosphorus": {
+      "unit": "mg",
+      "byGroup": {
+        "infant0to6Months": 100,
+        "infant7to11Months": 275,
+        "child1to3Years": 460,
+        "child4to8Years": 500,
+        "age9to18Years": 1250,
+        "adult19Plus": 700,
+        "pregnant": 1250,
+        "lactating": 1250
+      }
+    },
+    "iodine": {
+      "unit": "mcg",
+      "byGroup": {
+        "infant0to6Months": 110,
+        "infant7to11Months": 130,
+        "child1to3Years": 90,
+        "child4to8Years": 90,
+        "age9to18Years": 150,
+        "adult19Plus": 150,
+        "pregnant": 220,
+        "lactating": 290
+      }
+    },
+    "magnesium": {
+      "unit": "mg",
+      "byGroup": {
+        "infant0to6Months": 30,
+        "infant7to11Months": 75,
+        "child1to3Years": 80,
+        "child4to8Years": 130,
+        "age9to18Years": 410,
+        "adult19Plus": 420,
+        "pregnant": 400,
+        "lactating": 360
+      }
+    },
+    "manganese": {
+      "unit": "mg",
+      "byGroup": {
+        "infant0to6Months": 0.003,
+        "infant7to11Months": 0.6,
+        "child1to3Years": 1.2,
+        "child4to8Years": 1.5,
+        "age9to18Years": 2.2,
+        "adult19Plus": 3,
+        "pregnant": 2,
+        "lactating": 2.6
+      }
+    },
+    "molybdenum": {
+      "unit": "mcg",
+      "byGroup": {
+        "infant0to6Months": 2,
+        "infant7to11Months": 3,
+        "child1to3Years": 17,
+        "child4to8Years": 22,
+        "age9to18Years": 43,
+        "adult19Plus": 45,
+        "pregnant": 5,
+        "lactating": 50
+      }
+    },
+    "potassium": {
+      "unit": "mg",
+      "byGroup": {
+        "infant0to6Months": 400,
+        "infant7to11Months": 700,
+        "child1to3Years": 3000,
+        "child4to8Years": 3500,
+        "age9to18Years": 3500,
+        "adult19Plus": 3500,
+        "pregnant": 3500,
+        "lactating": 3500
+      }
+    },
+    "selenium": {
+      "unit": "mcg",
+      "byGroup": {
+        "infant0to6Months": 15,
+        "infant7to11Months": 20,
+        "child1to3Years": 20,
+        "child4to8Years": 30,
+        "age9to18Years": 55,
+        "adult19Plus": 60,
+        "pregnant": 60,
+        "lactating": 70
+      }
+    },
+    "zinc": {
+      "unit": "mg",
+      "byGroup": {
+        "infant0to6Months": 2,
+        "infant7to11Months": 3,
+        "child1to3Years": 3,
+        "child4to8Years": 5,
+        "age9to18Years": 11,
+        "adult19Plus": 11,
+        "pregnant": 12,
+        "lactating": 13
+      }
+    },
+    "choline": {
+      "unit": "mg",
+      "byGroup": {
+        "infant0to6Months": 125,
+        "infant7to11Months": 150,
+        "child1to3Years": 200,
+        "child4to8Years": 250,
+        "age9to18Years": 550,
+        "adult19Plus": 550,
+        "pregnant": 450,
+        "lactating": 550
+      }
+    }
+  }
+}
