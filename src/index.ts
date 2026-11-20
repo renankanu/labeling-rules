@@ -54,3 +54,9 @@ export {
   simplifiedVitaminsAndMinerals,
   type VitaminOrMineral,
 } from "./simplified-declaration";
+
+export {
+  type FrontLabelSize,
+  frontLabelSize,
+  frontLabelSizing,
+} from "./front-label-size";
