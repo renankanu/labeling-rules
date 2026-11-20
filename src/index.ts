@@ -28,3 +28,14 @@ export {
   frontLabelWarnings,
   isFrontLabelProhibitedCategory,
 } from "./front-label";
+
+export {
+  findPortionReferenceProduct,
+  portions,
+  type PortionReferenceProduct,
+  type PortionUnit,
+  type PortionValidation,
+  validatePortion,
+} from "./portions";
+
+export { referencePortionSchema } from "./schemas";

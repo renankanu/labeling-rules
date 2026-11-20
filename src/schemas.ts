@@ -34,3 +34,49 @@ export const nutrientsSchema = z.object({
     }),
   ),
 });
+const portionUnitSchema = z.enum(["g", "ml"]);
+
+export const referencePortionSchema = z.discriminatedUnion("kind", [
+  z.object({
+    kind: z.literal("fixed"),
+    options: z
+      .array(
+        z.object({
+          amount: z.number().positive(),
+          unit: portionUnitSchema.optional(),
+        }),
+      )
+      .min(1),
+  }),
+  z.object({
+    kind: z.literal("toPrepare"),
+    preparedAmount: z.number().positive().optional(),
+    unit: portionUnitSchema.optional(),
+    preparedDescriptionPt: z.string().min(1).optional(),
+  }),
+  z.object({ kind: z.literal("manufacturerDefined") }),
+  z.object({
+    kind: z.literal("alcoholEquivalent"),
+    ethanolGrams: z.number().positive(),
+  }),
+]);
+
+export const portionsSchema = z.object({
+  source: z.string().min(1),
+  groups: z.array(
+    z.object({
+      id: z.string().min(1),
+      labelPt: z.string().min(1),
+      averageEnergyKcal: z.number().positive().optional(),
+    }),
+  ),
+  products: z.array(
+    z.object({
+      id: z.string().min(1),
+      group: z.string().min(1),
+      labelPt: z.string().min(1),
+      portion: referencePortionSchema,
+      householdMeasuresPt: z.string().min(1),
+    }),
+  ),
+});

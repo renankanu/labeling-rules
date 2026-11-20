@@ -1,0 +1,1917 @@
+{
+  "source": "IN 75/2020 Annex V",
+  "groups": [
+    {
+      "id": "I",
+      "labelPt": "Produtos de panificação, cereais, leguminosas, raízes, tubérculos e seus derivados",
+      "averageEnergyKcal": 150
+    },
+    {
+      "id": "II",
+      "labelPt": "Verduras, hortaliças e conservas vegetais",
+      "averageEnergyKcal": 30
+    },
+    {
+      "id": "III",
+      "labelPt": "Frutas, sucos, néctares e refrescos de frutas",
+      "averageEnergyKcal": 70
+    },
+    {
+      "id": "IV",
+      "labelPt": "Leites e derivados",
+      "averageEnergyKcal": 125
+    },
+    {
+      "id": "V",
+      "labelPt": "Carnes e ovos",
+      "averageEnergyKcal": 125
+    },
+    {
+      "id": "VI",
+      "labelPt": "Óleos, gorduras e sementes oleaginosas",
+      "averageEnergyKcal": 100
+    },
+    {
+      "id": "VII",
+      "labelPt": "Açúcares e produtos com energia proveniente de carboidratos e gorduras",
+      "averageEnergyKcal": 100
+    },
+    {
+      "id": "VIII",
+      "labelPt": "Molhos, temperos prontos, caldos, sopas, pratos semiprontos ou prontos para consumo e bebidas alcoólicas"
+    }
+  ],
+  "products": [
+    {
+      "id": "I-01",
+      "group": "I",
+      "labelPt": "Amidos e féculas",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 20
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "I-02",
+      "group": "I",
+      "labelPt": "Arroz cru",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 50
+          }
+        ]
+      },
+      "householdMeasuresPt": "Xícaras"
+    },
+    {
+      "id": "I-03",
+      "group": "I",
+      "labelPt": "Aveia em flocos sem outros ingredientes",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 30
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "I-04",
+      "group": "I",
+      "labelPt": "Barra de cereais com até 10% de gordura",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 30
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "I-05",
+      "group": "I",
+      "labelPt": "Batata, mandioca e outros tubérculos, cozidos em água embalada à vácuo",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 150
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou xícara"
+    },
+    {
+      "id": "I-06",
+      "group": "I",
+      "labelPt": "Batata e mandioca pré-frita congelada",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 85
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou xícaras"
+    },
+    {
+      "id": "I-07",
+      "group": "I",
+      "labelPt": "Produtos à base de tubérculos e cereais pré-fritos ou congelados",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 85
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "I-08",
+      "group": "I",
+      "labelPt": "Biscoito salgados, integrais e grissines",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 30
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "I-09",
+      "group": "I",
+      "labelPt": "Bolos, todos os tipos sem recheio",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 60
+          }
+        ]
+      },
+      "householdMeasuresPt": "Fatia ou fração"
+    },
+    {
+      "id": "I-10",
+      "group": "I",
+      "labelPt": "Canjica (grão cru)",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 50
+          }
+        ]
+      },
+      "householdMeasuresPt": "Xícaras"
+    },
+    {
+      "id": "I-11",
+      "group": "I",
+      "labelPt": "Cereal matinal pesando até 45 g por xícara",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 30
+          }
+        ]
+      },
+      "householdMeasuresPt": "Xícaras"
+    },
+    {
+      "id": "I-12",
+      "group": "I",
+      "labelPt": "Cereal matinal pesando mais do que 45 g por xícara",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 40
+          }
+        ]
+      },
+      "householdMeasuresPt": "Xícaras"
+    },
+    {
+      "id": "I-13",
+      "group": "I",
+      "labelPt": "Cereais integrais crus",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 45
+          }
+        ]
+      },
+      "householdMeasuresPt": "Xícaras"
+    },
+    {
+      "id": "I-14",
+      "group": "I",
+      "labelPt": "Farinhas de cereais e tubérculos, todos os tipos",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 50
+          }
+        ]
+      },
+      "householdMeasuresPt": "Xícaras"
+    },
+    {
+      "id": "I-15",
+      "group": "I",
+      "labelPt": "Farelo de cereais e germe de trigo",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 10
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "I-16",
+      "group": "I",
+      "labelPt": "Farinha láctea",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 30
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "I-17",
+      "group": "I",
+      "labelPt": "Farofa pronta",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 35
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "I-18",
+      "group": "I",
+      "labelPt": "Massa alimentícia seca",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 80
+          }
+        ]
+      },
+      "householdMeasuresPt": "Pratos ou xícaras"
+    },
+    {
+      "id": "I-19",
+      "group": "I",
+      "labelPt": "Massa desidratada com recheio",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 70
+          }
+        ]
+      },
+      "householdMeasuresPt": "Pratos ou xícaras"
+    },
+    {
+      "id": "I-20",
+      "group": "I",
+      "labelPt": "Massas frescas com e sem recheios",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 100
+          }
+        ]
+      },
+      "householdMeasuresPt": "Pratos ou xícaras"
+    },
+    {
+      "id": "I-21",
+      "group": "I",
+      "labelPt": "Pães embalados fatiados ou não, com ou sem recheio",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 50
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou fatias"
+    },
+    {
+      "id": "I-22",
+      "group": "I",
+      "labelPt": "Pães embalados de consumo individual, chipa paraguaia",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 50
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "I-23",
+      "group": "I",
+      "labelPt": "Pão doce sem frutas",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 40
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "I-24",
+      "group": "I",
+      "labelPt": "Pão croissant, outros produtos de panificação, salgados ou doces sem recheio",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 40
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "I-25",
+      "group": "I",
+      "labelPt": "Pão de batata, pão de queijo e outros resfriados e congelados com recheio e massas para pães",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 40
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou fatias"
+    },
+    {
+      "id": "I-26",
+      "group": "I",
+      "labelPt": "Pão de batata, pão de queijo e outros resfriados e congelados sem recheio, chipa paraguaia",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 50
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou fatias"
+    },
+    {
+      "id": "I-27",
+      "group": "I",
+      "labelPt": "Pipoca",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 25
+          }
+        ]
+      },
+      "householdMeasuresPt": "Xícaras"
+    },
+    {
+      "id": "I-28",
+      "group": "I",
+      "labelPt": "Torradas",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 30
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "I-29",
+      "group": "I",
+      "labelPt": "Tofu",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 40
+          }
+        ]
+      },
+      "householdMeasuresPt": "Fatias"
+    },
+    {
+      "id": "I-30",
+      "group": "I",
+      "labelPt": "Trigo para quibe e proteína texturizada de soja",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 50
+          }
+        ]
+      },
+      "householdMeasuresPt": "Xícaras"
+    },
+    {
+      "id": "I-31",
+      "group": "I",
+      "labelPt": "Leguminosas secas, todas",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 60
+          }
+        ]
+      },
+      "householdMeasuresPt": "Xícaras"
+    },
+    {
+      "id": "I-32",
+      "group": "I",
+      "labelPt": "Pós para preparar flans e sobremesas",
+      "portion": {
+        "kind": "toPrepare",
+        "preparedAmount": 120,
+        "unit": "g"
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "I-33",
+      "group": "I",
+      "labelPt": "Sagu",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 30
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "I-34",
+      "group": "I",
+      "labelPt": "Massas para pasteis e panquecas",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 30
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "I-35",
+      "group": "I",
+      "labelPt": "Massa para tortas salgadas",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 30
+          }
+        ]
+      },
+      "householdMeasuresPt": "Frações"
+    },
+    {
+      "id": "I-36",
+      "group": "I",
+      "labelPt": "Massa para pizza",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 40
+          }
+        ]
+      },
+      "householdMeasuresPt": "Fatias"
+    },
+    {
+      "id": "I-37",
+      "group": "I",
+      "labelPt": "Farinha de rosca",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 30
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "I-38",
+      "group": "I",
+      "labelPt": "Preparações a base de soja tipo: milanesa, almondegas e hambúrguer",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 80
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "I-39",
+      "group": "I",
+      "labelPt": "Mistura para sopa paraguaia y chipaguazú",
+      "portion": {
+        "kind": "toPrepare",
+        "preparedAmount": 150,
+        "unit": "g"
+      },
+      "householdMeasuresPt": "Fatias"
+    },
+    {
+      "id": "I-40",
+      "group": "I",
+      "labelPt": "Pré-mistura para preparar bori-bori",
+      "portion": {
+        "kind": "toPrepare",
+        "preparedAmount": 80,
+        "unit": "g"
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "I-41",
+      "group": "I",
+      "labelPt": "Pré-mistura para preparar chipa paraguaia e mbeyu e outros pães",
+      "portion": {
+        "kind": "toPrepare",
+        "preparedAmount": 50,
+        "unit": "g"
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "I-42",
+      "group": "I",
+      "labelPt": "Preparado desidratados para purês de tubérculos",
+      "portion": {
+        "kind": "toPrepare",
+        "preparedAmount": 150,
+        "unit": "g"
+      },
+      "householdMeasuresPt": "Colheres de sopa ou xícaras"
+    },
+    {
+      "id": "I-43",
+      "group": "I",
+      "labelPt": "Pós para preparar bolos e tortas",
+      "portion": {
+        "kind": "toPrepare",
+        "preparedAmount": 60,
+        "unit": "g"
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "II-01",
+      "group": "II",
+      "labelPt": "Concentrado de vegetais triplo (extrato)",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 30
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "II-02",
+      "group": "II",
+      "labelPt": "Concentrado de vegetais",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 15
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "II-03",
+      "group": "II",
+      "labelPt": "Purê ou polpa de vegetais, incluindo tomate",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 60
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "II-04",
+      "group": "II",
+      "labelPt": "Molho de tomate ou a base de tomate e outros vegetais",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 60
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "II-05",
+      "group": "II",
+      "labelPt": "Picles e alcaparras",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 15
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "II-06",
+      "group": "II",
+      "labelPt": "Sucos de vegetais, frutas e sojas",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 200
+          }
+        ]
+      },
+      "householdMeasuresPt": "Copos"
+    },
+    {
+      "id": "II-07",
+      "group": "II",
+      "labelPt": "Vegetais desidratados em conserva (tomate seco)",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 40
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "II-08",
+      "group": "II",
+      "labelPt": "Vegetais desidratados para sopa",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 40
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "II-09",
+      "group": "II",
+      "labelPt": "Vegetais desidratados para purê",
+      "portion": {
+        "kind": "toPrepare",
+        "preparedAmount": 150,
+        "unit": "g"
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "II-10",
+      "group": "II",
+      "labelPt": "Vegetais em conserva (alcachofra, aspargo, cogumelos, pimentão, pepino e palmito) em salmoura, vinagre e azeite",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 50
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou xícaras"
+    },
+    {
+      "id": "II-11",
+      "group": "II",
+      "labelPt": "Jardineira e outras conservas de vegetais e legumes (cenouras, ervilhas, milho, tomate pelado e outros)",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 130
+          }
+        ]
+      },
+      "householdMeasuresPt": "Xícaras"
+    },
+    {
+      "id": "II-12",
+      "group": "II",
+      "labelPt": "Vegetais empanados",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 80
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "III-01",
+      "group": "III",
+      "labelPt": "Polpa de frutas para refresco, sucos concentrados de frutas e desidratados",
+      "portion": {
+        "kind": "toPrepare",
+        "preparedAmount": 200,
+        "unit": "ml"
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "III-02",
+      "group": "III",
+      "labelPt": "Polpa de frutas para sobremesas",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 50
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "III-03",
+      "group": "III",
+      "labelPt": "Suco, néctar e bebidas de frutas",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 200
+          }
+        ]
+      },
+      "householdMeasuresPt": "Copos"
+    },
+    {
+      "id": "III-04",
+      "group": "III",
+      "labelPt": "Frutas desidratadas (peras, pêssegos, abacaxi, ameixas, partes comestíveis)",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 50
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou colheres de sopa"
+    },
+    {
+      "id": "III-05",
+      "group": "III",
+      "labelPt": "Uva passa",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 30
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "III-06",
+      "group": "III",
+      "labelPt": "Fruta em conserva, incluindo salada de frutas",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 140
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou colheres de sopa"
+    },
+    {
+      "id": "IV-01",
+      "group": "IV",
+      "labelPt": "Bebida láctea",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 200
+          }
+        ]
+      },
+      "householdMeasuresPt": "Copos"
+    },
+    {
+      "id": "IV-02",
+      "group": "IV",
+      "labelPt": "Leites fermentados, iogurte, todos os tipos",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 200
+          }
+        ]
+      },
+      "householdMeasuresPt": "Copos"
+    },
+    {
+      "id": "IV-03",
+      "group": "IV",
+      "labelPt": "Leite fluido, todos os tipos",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 200
+          }
+        ]
+      },
+      "householdMeasuresPt": "Copos"
+    },
+    {
+      "id": "IV-04",
+      "group": "IV",
+      "labelPt": "Leite evaporado",
+      "portion": {
+        "kind": "toPrepare",
+        "preparedAmount": 200,
+        "unit": "ml"
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "IV-05",
+      "group": "IV",
+      "labelPt": "Queijo ralado",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 10
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "IV-06",
+      "group": "IV",
+      "labelPt": "Queijo cottage, ricota desnatado, queijo minas, requeijão desnatado e petit-suisse",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 50
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "IV-07",
+      "group": "IV",
+      "labelPt": "Outros queijos (ricota, semiduros, branco, requeijão, queijo cremoso, fundidos e em pasta)",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 30
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa ou fatias"
+    },
+    {
+      "id": "IV-08",
+      "group": "IV",
+      "labelPt": "Leite em pó",
+      "portion": {
+        "kind": "toPrepare",
+        "preparedAmount": 200,
+        "unit": "ml"
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "IV-09",
+      "group": "IV",
+      "labelPt": "Sobremesas lácteas",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 120
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou xícaras"
+    },
+    {
+      "id": "IV-10",
+      "group": "IV",
+      "labelPt": "Pós para preparar sobremesas lácteas",
+      "portion": {
+        "kind": "toPrepare",
+        "preparedAmount": 120,
+        "unit": "g"
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "IV-11",
+      "group": "IV",
+      "labelPt": "Pós para preparar sorvetes",
+      "portion": {
+        "kind": "toPrepare",
+        "preparedAmount": 50,
+        "unit": "g"
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "V-01",
+      "group": "V",
+      "labelPt": "Almôndegas a base de carnes",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 80
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "V-02",
+      "group": "V",
+      "labelPt": "Anchovas em conserva",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 15
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "V-03",
+      "group": "V",
+      "labelPt": "Apresuntado e corned beef",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 30
+          }
+        ]
+      },
+      "householdMeasuresPt": "Fatias"
+    },
+    {
+      "id": "V-04",
+      "group": "V",
+      "labelPt": "Atum, sardinha, pescado, mariscos, outros peixes em conserva com ou sem molhos",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 60
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou colheres de sopa"
+    },
+    {
+      "id": "V-05",
+      "group": "V",
+      "labelPt": "Caviar",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 10
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de chá"
+    },
+    {
+      "id": "V-06",
+      "group": "V",
+      "labelPt": "Charque",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 30
+          }
+        ]
+      },
+      "householdMeasuresPt": "Frações ou pratos"
+    },
+    {
+      "id": "V-07",
+      "group": "V",
+      "labelPt": "Hambúrguer a base de carnes",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 80
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "V-08",
+      "group": "V",
+      "labelPt": "Linguiça, salsicha, todos os tipos",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 50
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou frações"
+    },
+    {
+      "id": "V-09",
+      "group": "V",
+      "labelPt": "Kani-kama",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 20
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou colheres de sopa"
+    },
+    {
+      "id": "V-10",
+      "group": "V",
+      "labelPt": "Preparações de carnes temperados, defumadas, cozidas ou não",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 100
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "V-11",
+      "group": "V",
+      "labelPt": "Preparações de carnes com farinhas ou empanadas",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 130
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "V-12",
+      "group": "V",
+      "labelPt": "Embutidos, fiambre e presunto",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 40
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou fatias"
+    },
+    {
+      "id": "V-13",
+      "group": "V",
+      "labelPt": "Peito de peru, blanquet",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 60
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou fatias"
+    },
+    {
+      "id": "V-14",
+      "group": "V",
+      "labelPt": "Patês (presunto, fígado e bacon etc)",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 10
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de chá"
+    },
+    {
+      "id": "V-15",
+      "group": "V",
+      "labelPt": "Ovo",
+      "portion": {
+        "kind": "manufacturerDefined"
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "VI-01",
+      "group": "VI",
+      "labelPt": "Óleos vegetais, todos os tipos",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 13
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VI-02",
+      "group": "VI",
+      "labelPt": "Azeitona",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 20
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "VI-03",
+      "group": "VI",
+      "labelPt": "Bacon em pedaços - defumado ou fresco",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 10
+          }
+        ]
+      },
+      "householdMeasuresPt": "Fatias"
+    },
+    {
+      "id": "VI-04",
+      "group": "VI",
+      "labelPt": "Banha e gorduras animais",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 10
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VI-05",
+      "group": "VI",
+      "labelPt": "Gordura vegetal",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 10
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VI-06",
+      "group": "VI",
+      "labelPt": "Maionese e molhos a base de maionese",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 12
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VI-07",
+      "group": "VI",
+      "labelPt": "Manteiga, margarina e similares",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 10
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VI-08",
+      "group": "VI",
+      "labelPt": "Molhos para saladas a base de óleo (todos os tipos)",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 13
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VI-09",
+      "group": "VI",
+      "labelPt": "Chantilly",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 20
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VI-10",
+      "group": "VI",
+      "labelPt": "Creme de leite",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 15
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VI-11",
+      "group": "VI",
+      "labelPt": "Leite de coco",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 15
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VI-12",
+      "group": "VI",
+      "labelPt": "Coco ralado",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 12
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de chá"
+    },
+    {
+      "id": "VI-13",
+      "group": "VI",
+      "labelPt": "Sementes oleaginosas (misturados, cortados, picados, inteiros)",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 15
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VII-01",
+      "group": "VII",
+      "labelPt": "Açúcar, todos os tipos",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 5
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de chá"
+    },
+    {
+      "id": "VII-02",
+      "group": "VII",
+      "labelPt": "Achocolatado em pó, pós com base de cacau, chocolate em pó e cacau em pó",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 20
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VII-03",
+      "group": "VII",
+      "labelPt": "Doces em corte (goiaba, marmelo, figo, batata etc)",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 40
+          }
+        ]
+      },
+      "householdMeasuresPt": "Fatias"
+    },
+    {
+      "id": "VII-04",
+      "group": "VII",
+      "labelPt": "Doces em pasta (abóbora, goiaba, leite, banana, mocotó)",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 20
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VII-05",
+      "group": "VII",
+      "labelPt": "Geleias diversas",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 20
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VII-06",
+      "group": "VII",
+      "labelPt": "Glicose de milho, mel, melado, cobertura de frutas, leite condensado e outros xaropes (cassis, groselha, framboesa, amora, guaraná etc)",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 20
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VII-07",
+      "group": "VII",
+      "labelPt": "Pó para gelatina",
+      "portion": {
+        "kind": "toPrepare",
+        "preparedAmount": 120,
+        "unit": "g"
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VII-08",
+      "group": "VII",
+      "labelPt": "Sobremesa de gelatina pronta",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 120
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "VII-09",
+      "group": "VII",
+      "labelPt": "Frutas inteiras em conserva para adornos (cereja maraschino, framboesa)",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 20
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "VII-10",
+      "group": "VII",
+      "labelPt": "Balas, pirulitos e pastilhas",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 20
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "VII-11",
+      "group": "VII",
+      "labelPt": "Goma de mascar",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 3
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "VII-12",
+      "group": "VII",
+      "labelPt": "Chocolates, bombons e similares",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 25
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou frações"
+    },
+    {
+      "id": "VII-13",
+      "group": "VII",
+      "labelPt": "Confeitos de chocolate e drageados em geral",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 25
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou colheres de sopa"
+    },
+    {
+      "id": "VII-14",
+      "group": "VII",
+      "labelPt": "Sorvetes de massa",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 60,
+            "unit": "g"
+          },
+          {
+            "amount": 130,
+            "unit": "ml"
+          }
+        ]
+      },
+      "householdMeasuresPt": "Bolas ou unidades"
+    },
+    {
+      "id": "VII-15",
+      "group": "VII",
+      "labelPt": "Sorvetes individuais",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 60,
+            "unit": "g"
+          },
+          {
+            "amount": 130,
+            "unit": "ml"
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "VII-16",
+      "group": "VII",
+      "labelPt": "Barra de cereais com mais de 10% de gorduras, torrones, pé de moleque e paçoca",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 20
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou frações"
+    },
+    {
+      "id": "VII-17",
+      "group": "VII",
+      "labelPt": "Bebidas não alcoólicas, carbonadas ou não (chás, bebidas à base de soja e refrigerantes)",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 200
+          }
+        ]
+      },
+      "householdMeasuresPt": "Xícaras ou copos"
+    },
+    {
+      "id": "VII-18",
+      "group": "VII",
+      "labelPt": "Pós para preparo de refresco",
+      "portion": {
+        "kind": "toPrepare",
+        "preparedAmount": 200,
+        "unit": "ml"
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VII-19",
+      "group": "VII",
+      "labelPt": "Biscoito doce, com ou sem recheio",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 30
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "VII-20",
+      "group": "VII",
+      "labelPt": "Brownies e alfajores",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 40
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "VII-21",
+      "group": "VII",
+      "labelPt": "Frutas cristalizadas",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 30
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou colheres de sopa"
+    },
+    {
+      "id": "VII-22",
+      "group": "VII",
+      "labelPt": "Panetone",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 80
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou fatias"
+    },
+    {
+      "id": "VII-23",
+      "group": "VII",
+      "labelPt": "Bolo com frutas",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 60
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou fatias"
+    },
+    {
+      "id": "VII-24",
+      "group": "VII",
+      "labelPt": "Bolos e similares com recheio ou cobertura",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 60
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou fatias"
+    },
+    {
+      "id": "VII-25",
+      "group": "VII",
+      "labelPt": "Pão croissant, produtos de panificação, salgados ou doces com recheio ou cobertura",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 40
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades"
+    },
+    {
+      "id": "VII-26",
+      "group": "VII",
+      "labelPt": "Snacks a base de cereais e farinhas para petisco",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 25
+          }
+        ]
+      },
+      "householdMeasuresPt": "Xícaras"
+    },
+    {
+      "id": "VII-27",
+      "group": "VII",
+      "labelPt": "Mistura para preparo de docinho, cobertura para bolos, tortas e sorvetes etc",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 20
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VIII-01",
+      "group": "VIII",
+      "labelPt": "Caldo (carne, galinha, legumes etc) e pós para sopa incluindo (bori-bori, pirá caldo, shoyo)",
+      "portion": {
+        "kind": "toPrepare",
+        "preparedAmount": 250,
+        "unit": "ml"
+      },
+      "householdMeasuresPt": "Unidades, colheres de sopa ou frações"
+    },
+    {
+      "id": "VIII-02",
+      "group": "VIII",
+      "labelPt": "Catchup e mostarda",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 12
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VIII-03",
+      "group": "VIII",
+      "labelPt": "Molhos a base de soja ou vinagre",
+      "portion": {
+        "kind": "manufacturerDefined"
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VIII-04",
+      "group": "VIII",
+      "labelPt": "Molhos a base de produtos lácteos ou caldos",
+      "portion": {
+        "kind": "manufacturerDefined"
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VIII-05",
+      "group": "VIII",
+      "labelPt": "Pós para preparar molhos",
+      "portion": {
+        "kind": "toPrepare",
+        "preparedDescriptionPt": "2 colheres de sopa"
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VIII-06",
+      "group": "VIII",
+      "labelPt": "Misso",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 20
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VIII-07",
+      "group": "VIII",
+      "labelPt": "Missoshiro",
+      "portion": {
+        "kind": "toPrepare",
+        "preparedAmount": 200,
+        "unit": "ml"
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VIII-08",
+      "group": "VIII",
+      "labelPt": "Extrato de soja",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 30
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de sopa"
+    },
+    {
+      "id": "VIII-09",
+      "group": "VIII",
+      "labelPt": "Pratos preparados prontos e semipronto não incluídos em outros itens da tabela",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 100
+          }
+        ]
+      },
+      "householdMeasuresPt": "Unidades ou frações"
+    },
+    {
+      "id": "VIII-10",
+      "group": "VIII",
+      "labelPt": "Tempero completos",
+      "portion": {
+        "kind": "fixed",
+        "options": [
+          {
+            "amount": 5
+          }
+        ]
+      },
+      "householdMeasuresPt": "Colheres de chá"
+    },
+    {
+      "id": "VIII-11",
+      "group": "VIII",
+      "labelPt": "Bebidas alcoólicas",
+      "portion": {
+        "kind": "alcoholEquivalent",
+        "ethanolGrams": 10
+      },
+      "householdMeasuresPt": "Unidades ou copos"
+    }
+  ]
+}
