@@ -1,5 +1,6 @@
 export { dailyValues, nutrients } from "./nutrients";
 export {
+  annexIvOptionalNutrientIds,
   nonSignificantLimits,
   nonSignificantNutrients,
   type NutrientAmounts,

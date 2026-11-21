@@ -96,4 +96,39 @@ describe("IN 75/2020 Annex IV non-significant amounts", () => {
   test("treats missing amounts as zero", () => {
     expect(nonSignificantNutrients([{}]).size).toBe(10);
   });
+
+  test("IN 75/2020 Anexo IV — keeps carbohydrates when another carbohydrate is declared", () => {
+    const zero = nonSignificantNutrients([
+      { ...allZero, otherCarbohydrates: 0.1 },
+    ]);
+    expect(zero.has("carbohydrates")).toBe(false);
+  });
+
+  test("IN 75/2020 Anexo IV — keeps total sugars when lactose is declared", () => {
+    const zero = nonSignificantNutrients([
+      { ...allZero, totalSugars: 0.3, lactose: 0.2 },
+    ]);
+    expect(zero.has("totalSugars")).toBe(false);
+    expect(zero.has("carbohydrates")).toBe(false);
+  });
+
+  test("IN 75/2020 Anexo IV — keeps total fat when cholesterol is declared", () => {
+    const zero = nonSignificantNutrients([
+      { ...allZero, totalFat: 0.4, saturatedFat: 0.05, transFat: 0.05, cholesterol: 8 },
+    ]);
+    expect(zero.has("totalFat")).toBe(false);
+  });
+
+  test("IN 75/2020 Anexo IV — keeps proteins when an amino acid is declared", () => {
+    const zero = nonSignificantNutrients([
+      { ...allZero, proteins: 0.3, aminoAcids: 0.05 },
+    ]);
+    expect(zero.has("proteins")).toBe(false);
+  });
+
+  test("IN 75/2020 Anexo IV — optional must be non-significant in every column", () => {
+    const perPortion = { ...allZero, totalFat: 0.4, saturatedFat: 0.05, transFat: 0.05, cholesterol: 0 };
+    const per100 = { ...allZero, totalFat: 0.4, saturatedFat: 0.05, transFat: 0.05, cholesterol: 5 };
+    expect(nonSignificantNutrients([perPortion, per100]).has("totalFat")).toBe(false);
+  });
 });
