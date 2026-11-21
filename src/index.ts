@@ -86,3 +86,20 @@ export {
   isNutritionClaim,
   nutritionClaimIds,
 } from "./claims";
+
+export {
+  type AllergenDeclarationForm,
+  type AllergenDeclarationItem,
+  type AllergenPrefix,
+  type GlutenDeclaration,
+  type LactoseDeclaration,
+  buildAllergenDeclarations,
+  buildGlutenDeclaration,
+  buildLactoseDeclaration,
+  buildRecipeAllergenDeclarations,
+  formatAllergenPhrase,
+  inferDeclarationFormFromName,
+  mergeDeclarationForms,
+  normalizeAllergenBaseName,
+  stripDerivadosPrefix,
+} from "./allergen-declaration";

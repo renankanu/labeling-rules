@@ -29,6 +29,11 @@ Cada regra fica em `src/` com testes que travam os valores da norma.
 | Tamanho mínimo da lupa | IN Anexo XVIII; RDC Art. 22 | `frontLabelSize` |
 | Embalagem múltipla | RDC Arts. 13 e 20 | `multipackDeclaration` |
 | Alegações nutricionais (absolutas e comparativas) | IN Anexos XIX e XX; RDC Arts. 24 a 28 | `evaluateNutritionClaims` |
+| Declaração de alérgenos (`ALÉRGICOS: …`, derivados, PODE CONTER) | RDC 727/2022, Cap. III, Seção IV; Anexo III | `allergen-declaration` |
+| Lactose (`CONTÉM LACTOSE`, `ZERO LACTOSE`, `BAIXO TEOR DE LACTOSE`) | RDC 727/2022 Art. 18; RDC 715/2022 Art. 8º VII/VIII | `allergen-declaration` |
+| Glúten (`CONTÉM GLÚTEN`, `NÃO CONTÉM GLÚTEN`) | RDC 40/2002; Lei 10.674/2003 (remissão RDC 727) | `allergen-declaration` |
+
+PDFs: `RDC_727_2022.pdf`, `RDC_715_2022.pdf`, `RDC_040_2002.pdf` (ver `links.md`). Testes: `tests/allergen-declaration.test.ts`, `tests/normative-assets.test.ts`. Matriz AL1/AL2 na `axiom-api`: `generate-recipe-nutrition-label-allergens.int.test.ts`.
 
 ## Limites conhecidos
 
