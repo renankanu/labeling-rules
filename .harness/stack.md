@@ -32,3 +32,8 @@
 ## 5. Evidence
 
 - `package.json`, `bun test`, `README.md`
+
+## Harness policy v3 (current)
+- harness_version: 3; autonomy: full; plan_approval: independent_agent; review_required: true; target_branch: main; done_when: merged.
+- Gates: scripts/check.sh fast | phase | qa | ci.
+- pr_checks: none
