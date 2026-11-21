@@ -10,7 +10,8 @@ Arquivos locais em `docs/anvisa/` (espelham a norma commitada no repositório):
 | --- | --- | --- |
 | [RDC_727_2022.pdf](./RDC_727_2022.pdf) | RDC 727/2022 | Advertências `ALÉRGICOS: …`; `CONTÉM LACTOSE` (Art. 18) |
 | [RDC_715_2022.pdf](./RDC_715_2022.pdf) | RDC 715/2022 | `ZERO LACTOSE`, `BAIXO TEOR DE LACTOSE` (Art. 8º VII/VIII) |
-| [RDC_040_2002.pdf](./RDC_040_2002.pdf) | RDC 40/2002 | `CONTÉM GLÚTEN`; ausência conforme Lei 10.674/2003 (remissão na RDC 727) |
+| [RDC_040_2002.pdf](./RDC_040_2002.pdf) | RDC 40/2002 | `CONTÉM GLÚTEN` |
+| [LEI_10.674_2003_rotulagem_Gluten.pdf](./LEI_10.674_2003_rotulagem_Gluten.pdf) | Lei 10.674/2003 | `NÃO CONTÉM GLÚTEN` (Art. 1º) |
 
 Links oficiais (consulta; o PDF versionado no repo é a referência do pacote):
 
