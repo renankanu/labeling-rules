@@ -1,39 +1,34 @@
-# Project Stack Specification
+# Project Stack Specification - labeling-rules
 
-> labeling-rules — pure ANVISA norm helpers (Bun). Commands authoritative for kn-dev gates.
+> Executable commands and repository metadata.
 
-## 1. Core technologies
+## 1. Core Stack & Metadata
+- Runtime / package manager: Bun
+- Framework / validation: TypeScript, Zod
+- Database / ORM / codegen: none
+- Specs path: `docs/anvisa/`
+- Target branch: `main`
+- PR checks: `pr_checks: none`
+- Obsidian project: unknown
 
-- Runtime: **Bun**
-- Tests: `bun test` co-located under `tests/`
-- Package: consumed by axiom-api via git tag (no HTTP surface)
-
-## 2. Architecture and layout
-
-- `src/` rule modules + `src/data/*.json`
-- `docs/anvisa/rotulagem-nutricional.md` coverage map
-
-## 3. Deterministic commands
-
+## 2. Deterministic Commands
 - Install: `bun install`
-- Gate fast: `bun test {path}` (single test file)
-- Gate phase: `bun test tests/<related>.test.ts` (owned module tests)
-- Gate CI: `bun test` (full suite — small; use at delivery when profile is full)
+- Run: `bun run index.ts`
+- Static check (typecheck + lint + format): not configured
+- Unit test (single file): `bun test {path}`
+- Full test suite: `bun test`
+- Codegen / migrations: none
 
-## 3b. Harness delivery hints
+## 3. Universal Gate Contract (`scripts/check.sh`)
+- **gate_fast:** `./scripts/check.sh fast {path}` (currently prints `ok`; does not run tests)
+- **gate_phase:** `./scripts/check.sh phase` (runs the full test suite)
+- **gate_qa:** `./scripts/check.sh qa` (runs the full test suite)
+- **gate_ci:** `./scripts/check.sh ci` (runs the full test suite)
 
-- `pr_checks: none` (no `.github/workflows` PR CI)
-- Delivery profile: global `risk_based`; norm changes are often Track A when bundled with API — label `delivery:full` when solo release needs full film
-
-## 4. Spec and harness
-
-- No `AGENTS.md` harness block; read `~/.agents/HARNESS.md` and parent axiom-api delivery when issue spans both repos.
+## 4. Recommended Stack Skills (On Demand)
+- Global: `none`
+- Repo-local: none
 
 ## 5. Evidence
-
-- `package.json`, `bun test`, `README.md`
-
-## Harness policy v3 (current)
-- harness_version: 3; autonomy: full; plan_approval: independent_agent; review_required: true; target_branch: main; done_when: merged.
-- Gates: scripts/check.sh fast | phase | qa | ci.
-- pr_checks: none
+- Manifests & configs inspected: `package.json`, `bun.lock`, `tsconfig.json`
+- Gate script: `scripts/check.sh`
